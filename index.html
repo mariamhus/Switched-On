@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f1e6" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f0d0a" media="(prefers-color-scheme: dark)" />
+    <title>Switched on · Egypt's electricity in data</title>
+    <meta name="description" content="A scrollytelling data story: how Egypt's electricity went from the Nile, to gas, to the sun, 1965 to 2025." />
+    <meta property="og:title" content="Switched on · Egypt's electricity in data" />
+    <meta property="og:description" content="From the Nile to gas to the sun: 60 years of Egypt's electricity, told with data." />
+    <meta property="og:type" content="article" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      try {
+        var q = new URLSearchParams(location.search).get("lang");
+        var l = q === "ar" || q === "en" ? q : localStorage.getItem("switched-on:lang") || (navigator.language.toLowerCase().indexOf("ar") === 0 ? "ar" : "en");
+        if (l === "ar") { document.documentElement.lang = "ar"; document.documentElement.dir = "rtl"; }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
