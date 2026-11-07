@@ -2,7 +2,7 @@
 
 A bilingual (English and Arabic) scrollytelling data story about how Egypt keeps the lights on for 118 million people. It follows 60 years of real data, from a grid built on the Nile, to one that runs on gas, through the 2023–24 power cuts, to the first big push for sun and wind.
 
-**Live demo:** _add your Vercel link here_
+**Live demo:**[ _Switched-On_](https://switched-on-tan.vercel.app/)
 
 > A portfolio project by [Mariam Hussein](https://www.mariam-hussein.website).
 
